@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/styles/info_series.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/footer.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="path/to/fontawesome/css/all.css">
+	<link rel="icon" type="image/x-icon" href="/img/logo.png">
+	<title>La familia peluche</title>
+</head>
+<body>
+    <header>
+		<div class="contenedor">
+			<div class="principal">
+				<div class="menu">
+					<i class="fa fa-list amburguesa" style="color: #ffffff;" id="icono-menu"></i>
+				</div>
+
+				<div class="menu-activo MenuActivo" id="activo">
+					<ul>
+						<a href="/html/home.html"><li><i class="fa fa-home" style="color: #ffffff;"></i> Inicio </li></a>
+						<a href="/html/categorias_peliculas.html"><li><i class="fa fa-video" style="color: #ffffff;"></i> Peliculas </li></a>
+						<a href="/html/categorias_series.html"><li><i class="fas fa-film" style="color: #ffffff;"></i> Series </li></a>
+						<a href="/html/perfil_usuario.html"><li><i class="fa fa-user" style="color: #ffffff;"></i> Perfil </li></a>
+						<br>
+						<a href="/html/iniciar_sesion.html"><li><i class="fa fa-right-from-bracket" style="color: #ffffff;" ></i> Cerrar sesion</li></a>
+					</ul>
+				</div>
+			</div>
+            
+            <div class="nombre_logo">
+                <a href="/html/home.html">
+				<h2>LatView</h2> </a>
+				<img src="/img/logo.png" width="35px" height="30px">
+            
+			</div> 
+
+            <div class="buscar">
+                <input href="#" placeholder="Buscar"></input>
+				<i class="fa fa-search" style="color: #ffffff;"></i>
+            </div>
+            <div class="usuario">
+                <a href="/html/perfil_usuario.html"><img src="/img/perfil/miauricio.jpg"></a>
+            </div>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="imagen-pelicula">
+				<img src="/img/continuar_viendo/familiapeluche.jpg">
+			</div>
+			<div class="contenedor-pelicula">
+				<h3 class="titulo">La familia peluche</h3>
+				<p class="informacion">
+					2002 - 2012 - Comedia - 30m
+				</p>
+
+				<div>
+					<div class="circulo">
+						<svg>
+							<circle class="bg" r="52"/>
+							<text class="text" x="40" y="85">76%</text>
+							<circle class="meter-1"r="52" />
+						</svg>
+						
+					</div>
+					
+				</div>
+
+				<div class="botonesFavoritos">
+					<button role="button" class="megusta"><i class="fa fa-heart"></i></button>
+					<button role="button" class="megusta"><i class="fa fa-star"></i></button>
+					<button role="button" class="megusta"><i class="fa fa-bookmark"></i></button>
+				</div>
+
+				<p class="resumen">
+					Una familia que trata con los conflictos y problemas de la vida diaria pero en forma cómica y exagerada con la particularidad que viven en una ciudad que está edificada en su totalidad de peluche y con todos los accesorios de peluche.
+				</p>
+
+				<div class="botones-reproduccion">
+					<button role="button" class="botonR"><i class="fas fa-play"></i> Reproducir</button>
+					<a href="https://youtu.be/HHqCbWV5kvY" target="_blank" ><button role="button" class="botonM"><i class="fas fa-info-circle"></i> Trailer </button></a>
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<div class="temporadas">
+		<form>
+			<select name="temporadas">
+				<option value="temporada 1">Temporada 1</option>
+				<option value="temporada 2">Temporada 2</option>
+				<option value="temporada 3">Temporada 3</option>
+			</select>
+		</form>
+		<section class="layout">
+			<div><img src="/img/temporadas_familiapeluche/cap1.jpg" width="320px" height="auto">	
+			<p>Capitulo 1 - Recuerdos</p>
+			</div>
+			<div><img src="/img/temporadas_familiapeluche/cap2.jpg" width="320px" height="auto" >
+			<p>Capitulo 2 - La sirvienta</p>
+			</div>
+			<div><img src="/img/temporadas_familiapeluche/cap3.jpg" width="320px" height="auto" >
+			<p>Capitulo 3 - El cumpleaños de Ludoviquito</p>
+			</div>
+			<div><img src="/img/temporadas_familiapeluche/cap4.jpg" width="320px" height="auto" >
+			<p>Capitulo 4 - Las cenizas</p>
+			</div>
+			<div><img src="/img/temporadas_familiapeluche/cap5.jpg" width="320px" height="auto" >
+			<p>Capitulo 5 - La Bomba</p>
+			</div>
+		  </section>
+	</div>
+
+
+
+	<footer contenedor_footer>
+        <img src="/img/banner_logo.png">
+        <div class="texto_footer">
+            <a href="https://es.wikipedia.org/wiki/Digital_Millennium_Copyright_Act"><p>DMCA</p></a>
+            <a href="https://es.wikipedia.org/wiki/Aviso_legal"><p>Aviso legal</p></a>
+            <p><i class="fa-brands fa-facebook"></i>LatView</p>
+            <p><i class="fa-brands fa-instagram"></i>LatView</p>
+            <p><i class="fa-regular fa-envelope"></i>LatView@gmail.com</p>
+        </div>
+       
+     </footer>
+     <span> 2023 LatView. Todos los derechos reservados</span>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="../js/menu.js"></script>
+	
+</body>
+</html>

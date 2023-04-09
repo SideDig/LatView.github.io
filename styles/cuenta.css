@@ -1,0 +1,71 @@
+body{
+  font-family: "Open Sans";
+  margin: 0px;
+  padding:0px;
+  background-color: #121212;
+  color: white;
+}
+
+a{
+  font-size: 17px;
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor_cuenta {
+  color: white;
+  margin: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opciones_cuenta{
+  color: white;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 850px;
+  height: 500px;
+  background-color: #1E1E1E;
+}
+
+ hr{
+  border: 1px solid #292929;
+  width: 847px;
+  height: 5px;
+  display: block;
+  background-color: #292929;
+    
+}
+
+.datos{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  width: 700px;
+
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+   background-color: #52a3ff;
+   border-radius: 10px;
+   border: 2px solid #000000;
+  }
+
+ 

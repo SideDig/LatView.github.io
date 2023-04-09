@@ -1,0 +1,119 @@
+body{
+    font-family: "Open Sans";
+    margin: 0px;
+    padding:0px;
+    background-color: #121212;
+    color: white;
+}
+
+.nombre_logo{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    width: 315px;
+    height: 55px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.nombre_logo img{
+    margin-left: 5px;
+}
+
+.titulo h1{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contenedor {
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.metodos{
+    
+    border-radius: 25px;
+    width: 550px;
+    height: 455px;
+    background-color: #1E1E1E;
+}
+
+.metodos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px;
+}
+
+.metodos img{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    width: 145px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 2px 2px 0px rgba(82, 163, 255, 0.7);
+    background-color: #000000;
+    overflow: visible;
+    align-content: center;
+    border-radius: 8px;
+    border-color: #52a3ff;
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    width: 145px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 0px 0px rgba(82, 163, 255, 0.7);
+    background-color: #52a3ff;
+    overflow: visible;
+    align-content: center;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    border-color: #52a3ff;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+}
+
+i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
