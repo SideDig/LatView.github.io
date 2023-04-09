@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+    padding:0px;
+    min-height:100%;
+    background-color: #1E1E1E;
+}
+
+.contenedor_registro{
+    color: white;
+    background-color:#0B0E10;
+    width: 50%;
+    height: 100vh;
+    padding: 0;
+    margin:0;
+}
+
+.textos_Registros {
+    font-family: "Open Sans";
+}
+
+.textos_Registros h2{
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+.textos_Registros h1{
+    font-style: normal;
+    font-size: 55px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.textos_Registros p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.nombre_logo{
+    
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 315px;
+    height: 55px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.nombre_logo img{
+    margin-left:5px;
+}
+
+
+.form_registro{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_registro input{
+   box-shadow: -0.2412920828889182px 0.6032302072222955px 2.46885550272581px -1.4166666666666665px rgba(82, 163, 255, 0.81), -0.9160842286523624px 2.290210571630906px 9.373202642168355px -2.833333333333333px hsla(212, 100%, 66%, 0.68969), -4px 10px 40.927252534222234px -4.25px hsla(212, 100%, 66%, 0.15);
+   background-color: rgba(0, 0, 0, 0.4);
+   overflow: hidden;
+   border-radius: 10px;
+   border-color: #52a3ff;
+   border-style: solid;
+   border-top-width: 4px;
+   border-bottom-width: 0px;
+   border-left-width: 2px;
+   border-right-width: 2px;
+   margin: 15px;
+   width: 60%;
+   height: 35px;
+   outline: none;
+   color: white;
+   font-family: "Open Sans";
+   font-size: 16px;
+   padding-left:10px;
+   letter-spacing: 0.5px;
+   margin-top: 15px;
+}
+
+.form_registro .btn-registrar{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 20px 0px rgba(82, 163, 255, 0.7);
+    background-color: #000000;
+    overflow: visible;
+    align-content: center;
+    gap: 10;
+    border-radius: 8px;
+    border-color: #52a3ff;
+    border-style: solid;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form_registro .btn-registrar:hover{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 5px 20px 0px rgba(82, 163, 255, 0.7);
+    background-color: #52a3ff;
+    overflow: visible;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10;
+    border-radius: 8px;
+    border-color: #52a3ff;
+    border-style: solid;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.no_tienes_cuenta{
+    text-decoration: none;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans";
+
+}
+
+a{
+    text-decoration: none;
+}
+.no_tienes_cuenta a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor_registro_y_carousel{
+    display: flex;
+     
+}
+.estrenos_carousel{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.estrenos_carousel h2{
+    padding-bottom: 15px;
+    font-weight: 800;
+    color: #52a3ff;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    line-height: 1.2;
+    
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 1px rgba(82, 163, 255, 0.7);
+    border: 1px solid #52a3ff;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-radius: 20px;
+    position: relative;
+    width: 350px; 
+    
+}
+  
+  /* Hide the images by default */
+  .mySlides {
+
+    display: none;
+}
+
+  .mySlides.active {
+  display: block;
+} 
+
+  .mySlides img{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    
+    cursor: pointer;
+}
+  
+  /* Next & previous buttons */
+  
+  .next, .prev {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: 40px;
+    height: 40px;
+    padding:10px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:200px 200px 200px 200px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius:200px 200px 200px 200px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .estrenos_carousel span{
+    margin-top: 50px;
+    font-family: "Open Sans";
+    color: white;
+    text-align: center;
+  }
+  
+
+  
